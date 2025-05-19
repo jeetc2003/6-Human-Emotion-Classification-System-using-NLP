@@ -16,7 +16,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Relative paths
 lg_model_path = os.path.join(BASE_DIR, "lg.pkl")
 label_encoder_path = os.path.join(BASE_DIR, "lb.pkl")
-tfidf_path = os.path.join(BASE_DIR, "tfidf_vectorizer.pkl")
+tfidf_path = os.path.join(BASE_DIR, "tfidf_vec.pkl")
 dl_model_path = os.path.join(BASE_DIR, "model.keras")
 
 # Load models
