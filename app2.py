@@ -92,7 +92,7 @@ if st.button("🔍 Predict with ML Model"):
          emotion = predict_emotion_ml(input_text)
          st.info(f"**Predicted Emotion (ML):** {emotion.upper()}")
          emotion, confidence = predict_emotion_dl(input_text)
-              st.caption(f"Confidence: {confidence:.2f}%")
+         st.caption(f"Confidence: {confidence:.2f}%")
 
 
 
