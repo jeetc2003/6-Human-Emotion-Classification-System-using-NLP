@@ -80,7 +80,7 @@ def predict_emotion_dl(text):
 # 🎨 Streamlit UI
 st.set_page_config(page_title="Emotion Detector By JEET", page_icon="🧠")
 st.title("🧠 Emotion Detection App")
-st.markdown("This app predicts **Six Human Emotions** using NLP:")
+st.markdown("This app predicts **Six Human Emotions** using NLP : Made By JEET")
 st.success("`Joy`, `Love`, `Fear`, `Anger`, `Surprise`, `Sadness`")
 
 input_text = st.text_area("✍️ Enter your sentence below:")
@@ -90,7 +90,7 @@ if st.button("🔍 Predict with ML Model"):
          st.warning("Please enter some text.")
      else:
          emotion = predict_emotion_ml(input_text)
-         st.info(f"**Predicted Emotion (ML):** {emotion.upper()}")
+         st.info(f"**Predicted Emotion :** {emotion.upper()}")
          emotion, confidence = predict_emotion_dl(input_text)
          st.caption(f"Confidence: {confidence:.2f}%")
 
