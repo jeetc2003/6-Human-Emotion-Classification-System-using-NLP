@@ -5,7 +5,7 @@ Welcome to the Emotion Detector web app! This project predicts six basic human e
 Built with ❤️ by Jeet Choudhury using Streamlit, TensorFlow, Scikit-learn, and Natural Language Processing (NLP).
 
 
-##🔍 Features
+## 🔍 Features
 - Predicts 6 emotions from any English sentence.
 
 - Dual prediction using:
@@ -22,10 +22,12 @@ Built with ❤️ by Jeet Choudhury using Streamlit, TensorFlow, Scikit-learn, a
 
 - Made for easy web deployment on Streamlit Cloud.
 
-##🚀 Live Demo
+
+## 🚀 Live Demo
 👉 https://human-emotion-nlp-4jeet.streamlit.app/
 
-##🧠 Emotions Predicted
+
+## 🧠 Emotions Predicted
 😠 Anger
 
 😨 Fear
@@ -38,7 +40,8 @@ Built with ❤️ by Jeet Choudhury using Streamlit, TensorFlow, Scikit-learn, a
 
 😲 Surprise
 
-##⚙️ How It Works
+
+## ⚙️ How It Works
 🔤 Text Preprocessing
 Remove special characters and lowercase
 
@@ -46,14 +49,16 @@ Remove stopwords
 
 Stemming using PorterStemmer
 
-##🔍 ML Prediction
+
+## 🔍 ML Prediction
 Text is vectorized using TF-IDF
 
 Passed to a Logistic Regression model
 
 Output label is decoded via LabelEncoder
 
-##🤖 DL Prediction
+
+## 🤖 DL Prediction
 Text is tokenized using one-hot encoding
 
 Sequence is padded
